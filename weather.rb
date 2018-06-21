@@ -18,7 +18,8 @@ def weather_report (weather)
 end
 
 def city_weather_info (weather)
-puts "The city is #{weather[:city]}."
-puts "The description is #{weather[description]}."
-puts "The temperature is #{weather[temperature_farenheit].}"
+return "The city is #{weather[:city]}."
+return "The description is #{weather[description]}."
+return "The temperature is 
+#{weather[temperature_farenheit].}"
 end
