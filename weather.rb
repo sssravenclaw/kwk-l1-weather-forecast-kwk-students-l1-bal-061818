@@ -19,7 +19,7 @@ end
 
 def city_weather_info (weather)
 return "The city is #{weather[:city]}."
-return "The description is #{weather[description]}."
+return "The description is #{weather[:description]}."
 return "The temperature is 
-#{weather[temperature_farenheit].}"
+#{weather[:temperature_farenheit].}"
 end
